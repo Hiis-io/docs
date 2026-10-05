@@ -1,0 +1,13 @@
+{
+  "title": "Brimweb (Patronize) Developer Docs",
+  "description": "Developer documentation for the Brimweb Patronize project.",
+  "language": "en",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "highlight"
+  ]
+}

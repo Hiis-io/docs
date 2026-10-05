@@ -1,0 +1,10 @@
+services:
+  gitbook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: patronize-gitbook
+    working_dir: /srv/gitbook
+    ports:
+      - "4000:4000"
+    restart: unless-stopped

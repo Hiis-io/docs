@@ -1,0 +1,12 @@
+services:
+  mkdocs:
+    build:
+      context: .
+      dockerfile: Dockerfile.mkdocs
+    container_name: patronize-mkdocs
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    restart: unless-stopped

@@ -1,0 +1,14 @@
+{
+  "name": "brimweb-patronize-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitBook documentation site for Brimweb Patronize developer docs.",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "install-tools": "gitbook install"
+  },
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

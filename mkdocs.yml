@@ -1,0 +1,38 @@
+site_name: Brimweb (Patronize) Developer Docs
+site_description: Developer documentation for the Brimweb Patronize project.
+site_url: http://localhost:8000
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: README.md
+  - Getting Started:
+      - Overview: getting-started/README.md
+  - Architecture: architecture/README.md
+  - Development: development/README.md
+  - API: api/README.md
+  - Deployment: deployment/README.md
+  - Operations: operations/README.md
+  - References: references/README.md
